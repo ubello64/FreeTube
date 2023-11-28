@@ -1505,12 +1505,12 @@ export default defineComponent({
         }
 
         createControlTextEl(button) {
-          button.classList.add('vjs-button-spinner')
+          //button.classList.add('vjs-button-spinner')
           button.title = 'Auto Play (a)'
 
           const div = document.createElement('div')
           div.id = 'autoPlay'
-          div.className = 'vjs-icon-spinner vjs-button'
+          div.className = 'vjs-volume-bar vjs-slider-bar vjs-slider vjs-slider-horizontal'
 
           button.appendChild(div)
 
